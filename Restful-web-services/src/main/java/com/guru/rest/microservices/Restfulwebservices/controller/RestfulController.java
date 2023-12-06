@@ -18,8 +18,8 @@ public class RestfulController {
 		
 		@GetMapping(path="/hello-world-bean")
 		public HelloWorldBean helloWorldBean(String message) {
-			throw new RuntimeException("Some error happend ! contact support team..");
-			//return new HelloWorldBean("Hello-World-bean");
+			//throw new RuntimeException("Some error happend ! contact support team..");
+			return new HelloWorldBean("Hello-World-bean");
 		}
 		
 		@GetMapping(path="/hello-world-bean/{name}")
