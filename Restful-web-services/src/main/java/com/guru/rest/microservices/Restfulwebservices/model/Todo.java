@@ -82,4 +82,8 @@ public class Todo {
 				+ targetDate + ", isDone=" + isDone + "]";
 	}
 
+	public Todo() {
+		super();
+	}
+
 }

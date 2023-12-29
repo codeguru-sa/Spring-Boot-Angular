@@ -26,4 +26,5 @@ public class RestfulController {
 		public HelloWorldBean helloWorldBeanPathVariable(@PathVariable String name) {
 			return new HelloWorldBean(String.format("Hello-World-bean, %s",name));
 		}
+		
 }
